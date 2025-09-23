@@ -29,3 +29,8 @@ psql -h 172.21.124.39 -p 5432 -U postgres -d production \
 psql -h 172.21.124.39 -p 5432 -U postgres -d production \
   -v ON_ERROR_STOP=1 -P pager=off -f FactBilling.sql
 
+#4 SQL
+SELECT COUNT(*) FROM public."DimCustomer";
+SELECT COUNT(*) FROM public."DimMonth";
+SELECT COUNT(*) FROM public."FactBilling";
+
