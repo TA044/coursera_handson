@@ -1,6 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd 
+# install these library using terminal
+# python3.11 -m pip install pandas
+# python3.11 -m pip install bs4
 
 res = requests.get('https://web.archive.org/web/20230902185655/https://en.everybodywiki.com/100_Most_Highly-Ranked_Films')
 # print(res.text)
